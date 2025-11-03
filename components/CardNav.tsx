@@ -6,7 +6,7 @@ import { GoArrowUpRight } from 'react-icons/go';
 
 type CardNavLink = {
   label: string;
-  href: string;
+  href?: string;
   ariaLabel: string;
 };
 
