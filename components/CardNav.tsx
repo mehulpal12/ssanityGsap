@@ -14,13 +14,13 @@ export type CardNavItem = {
   label: string;
   bgColor: string;
   textColor: string;
-  links: CardNavLink[];
+  links?: CardNavLink[];
 };
 
 export interface CardNavProps {
   logo: string;
   logoAlt?: string;
-  items: CardNavItem[];
+  items?: CardNavItem[];
   className?: string;
   ease?: string;
   baseColor?: string;
