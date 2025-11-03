@@ -158,7 +158,7 @@ const CardNav: React.FC<CardNavProps> = ({
 
   return (
     <div
-      className={`card-nav-container absolute left-1/2 -translate-x-1/2 w-[90%] max-w-[80vw] z-[99] top-[1em] md:top-[0.5em] ${className}`}
+      className={`card-nav-container absolute left-1/2 -translate-x-1/2 w-[90%] md:max-w-[80vw]  z-[99] top-[1em] md:top-[0.5em] ${className}`}
     >
       <nav
         ref={navRef}

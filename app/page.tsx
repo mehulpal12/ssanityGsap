@@ -58,13 +58,13 @@ export default async function Home() {
 
   return (
    <div>
-    <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+    <div style={{ width: '100%', height: '100vh', position: 'relative' }} >
   <LightRays
     raysOrigin="top-center"
     raysColor="#00ffff"
     raysSpeed={1.5}
-    lightSpread={0.8}
-    rayLength={1.2}
+    lightSpread={3}
+    rayLength={4}
     followMouse={true}
     mouseInfluence={0.1}
     noiseAmount={0.1}
