@@ -76,6 +76,10 @@ export default async function Home() {
        <CardNav
       logoAlt="DevPilot Studio"
       items={items}
+      href="#"
+      logo=""
+      navBgColor="#000"
+      navTextColor="#fff"
       baseColor="#fff"
       menuColor="#000"
       buttonBgColor="#111"
