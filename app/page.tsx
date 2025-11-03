@@ -26,8 +26,8 @@ const items = [
       bgColor: "#0D0716",
       textColor: "#fff",
       links: [
-        { label: "Company", ariaLabel: "About Company" },
-        { label: "Careers", ariaLabel: "About Careers" }
+        { label: "Company", href: "/", ariaLabel: "About Company" },
+        { label: "Careers", href: "/", ariaLabel: "About Careers" }
       ]
     },
     {
@@ -35,8 +35,8 @@ const items = [
       bgColor: "#170D27",
       textColor: "#fff",
       links: [
-        { label: "Featured", ariaLabel: "Featured Projects" },
-        { label: "Case Studies", ariaLabel: "Project Case Studies" }
+        { label: "Featured", href: "/", ariaLabel: "Featured Projects" },
+        { label: "Case Studies", href: "/", ariaLabel: "Project Case Studies" }
       ]
     },
     {
@@ -44,9 +44,9 @@ const items = [
       bgColor: "#271E37", 
       textColor: "#fff",
       links: [
-        { label: "Email", ariaLabel: "Email us" },
-        { label: "Twitter", ariaLabel: "Twitter" },
-        { label: "LinkedIn", ariaLabel: "LinkedIn" }
+        { label: "Email" , href: "/", ariaLabel: "Email us" },
+        { label: "Twitter" , href: "/", ariaLabel: "Twitter" },
+        { label: "LinkedIn" , href: "/", ariaLabel: "LinkedIn" }
       ]
     }
   ];
@@ -82,6 +82,7 @@ export default async function Home() {
       buttonBgColor="#111"
       buttonTextColor="#fff"
       ease="power3.out"
+      
     />
       <div className="absolute top-4 right-12">
         <Theme />
